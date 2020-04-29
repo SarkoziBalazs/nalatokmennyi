@@ -95,7 +95,7 @@ class ProductController extends Controller
             "message" => "Sikeres mentés"
         ];
 
-        return view("/add-product")->with(["flash" => $flash]);
+        return view("pages.create")->with(["flash" => $flash]);
     }
 
     /**
